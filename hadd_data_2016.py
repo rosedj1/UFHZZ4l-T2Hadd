@@ -11,11 +11,23 @@ def makedirs(dir):
 #inputDir = "/cms/data/store/user/hmei/UFHZZAnalysisRun2/Data_80XM17_Feb22/"
 #outputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80XM17_Feb22/"
 
+#inputDir = "/cms/data/store/user/dsperka/UFHZZAnalysisRun2/Data_80XM17_Feb21_fixDZ/"
+#outputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80XM17_Feb21_fixDZ/"
+
 #inputDir = "/cms/data/store/user/dsperka/UFHZZAnalysisRun2/Data_80XM17_Feb21_fixDZ_v2/"
 #outputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80XM17_Feb21_fixDZ_v2/"
 
-inputDir = "/cms/data/store/user/muahmad/UFHZZAnalysisRun2/Data_80XM17_Feb21/"
-outputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80XM17_Feb21/"
+#inputDir = "/cms/data/store/user/muahmad/UFHZZAnalysisRun2/Data_80XM17_Feb21/"
+#outputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80XM17_Feb21/"
+
+#inputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80X_4l_legacy/hmei/Data_80XM17_Feb21/"
+#outputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80X_4l_legacy/hmei/hadd/Data_80XM17_Feb21/"
+
+#inputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80X_4l_legacy/hmei/Data_80XM17_Feb22/"
+#outputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80X_4l_legacy/hmei/hadd/Data_80XM17_Feb22/"
+
+inputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80X_4l_legacy/hmei/Data_80XM17_Feb21_v2/"
+outputDir = "/cms/data/store/user/t2/users/klo/Higgs/HZZ4l/NTuple/Run2/Data_80X_4l_legacy/hmei/hadd/Data_80XM17_Feb21_v2/"
 
 pdNames = glob.glob(inputDir+"/")
 
